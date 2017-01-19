@@ -32,7 +32,7 @@ Run in background:
 $ docker run -itd --name some-xmr-stak-cpu -v "$PWD"/config.txt:/usr/local/etc/config.txt minecoins/xmr-stak-cpu
 ```
 
-Use `--privileged` option for large pages support. Lare pages need a properly set up OS.
+Use `--privileged` option for large pages support. Large pages need a properly set up OS.
 
 Fetch logs of a container:
 
